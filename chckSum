@@ -1,0 +1,26 @@
+CHT=$1
+CHI=$2
+CHO=$3
+
+if [[ -z "${CHT}" ]]; then
+	echo "Usage: chckSum <checksum type> <input file> <original checksum>"
+	exit
+fi
+if [[ -z "${CHI}" ]]; then
+	echo "Usage: chckSum <checksum type> <input file> <original checksum>"
+	exit
+fi
+if [[ -z "${CHO}" ]]; then
+	echo "Usage: chckSum <checksum type> <input file> <original checksum>"
+	exit
+fi
+
+FCH="$($CHT $CHI | cut -d ' ' -f1)"
+
+if [[ "$FCH" == "$CHO" ]]; then
+	echo "Valid!"
+else
+	echo "Input $CHO"
+	echo "File  $FCH"
+	echo "Invalid!"
+fi
