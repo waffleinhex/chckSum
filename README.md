@@ -1,7 +1,7 @@
 # chckSum
 chckSum is an easy tool to check whether the checksum of a downloaded file is the same as the checksum provided by the vendor.
 
->WARNING!
+> [!IMPORTANT]
 >chckSum currently can run any code on your computer, DO NOT copy any ./chckSum commands from online
 >Usage explained in [Running](#Running)
 
