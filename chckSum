@@ -18,6 +18,8 @@ fi
 FCH="$($CHT $CHI | cut -d ' ' -f1)"
 
 if [[ "$FCH" == "$CHO" ]]; then
+	echo "Input $CHO"
+	echo "File  $FCH"
 	echo "Valid!"
 else
 	echo "Input $CHO"
