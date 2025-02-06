@@ -9,6 +9,10 @@ To run, simply type `./chckSum <checksum type> <input file> <original checksum>`
 
 # Installation
 To install, just download the file, if you want to run it system-wide then enter the folder with chckSum and do this command:  
+
+> [!IMPORTANT]
+> sudo is required to run this command (if /usr/bin's permissions are set to unallow user writing to it)
+
 ```
 sudo cp ./chckSum /usr/bin/
 ```
