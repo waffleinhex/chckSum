@@ -5,7 +5,7 @@ chckSum is an easy tool to check whether the checksum of a downloaded file is th
 > [!IMPORTANT]
 > Make sure to make the file executable before attempting to run. To do this, run ```chmod +x chckSum``` in the directory chckSum is stored.
 
-To run, simply type `./chckSum` in the directory the script is stored.
+To run, simply type `./chckSum <checksum type> <input file> <original checksum>` in the directory the script is stored.
 
 # Installation
 To install, just download the file, if you want to run it system-wide then enter the folder with chckSum and do this command:  
